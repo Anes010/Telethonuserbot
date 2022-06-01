@@ -23,7 +23,7 @@ class AFK:
         self.afk_type = None
         self.media_afk = None
         self.afk_on = False
-sleeping = gvarstatus("OR_SLEEP") or "وضع النائم"
+sleeping = gvarstatus("OR_SLEEP") or "نائم"
 
 
 AFK_ = AFK()
